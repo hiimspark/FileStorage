@@ -1,0 +1,129 @@
+.shared-file-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #f5f7fa;
+  }
+  
+  .file-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  .file-header {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  
+  .file-header h2 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+  }
+  
+  .file-details {
+    margin-bottom: 25px;
+  }
+  
+  .detail-row {
+    display: flex;
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .detail-label {
+    font-weight: 600;
+    color: #555;
+    width: 150px;
+  }
+  
+  .detail-value {
+    color: #333;
+    flex: 1;
+  }
+  
+  .share-link-container {
+    margin: 30px 0;
+  }
+  
+  .share-link-label {
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 8px;
+  }
+  
+  .share-link-input {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: #f9f9f9;
+    word-break: break-all;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .copy-hint {
+    display: block;
+    font-size: 12px;
+    color: #3498db;
+    margin-top: 5px;
+  }
+  
+  .action-buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .download-button, .home-button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    flex: 1;
+  }
+  
+  .download-button {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .download-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .home-button {
+    background-color: #f5f5f5;
+    color: #333;
+    border: 1px solid #ddd;
+  }
+  
+  .home-button:hover {
+    background-color: #eaeaea;
+  }
+  
+  .loading {
+    text-align: center;
+    padding: 50px;
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .error-container {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .error-message {
+    color: #e74c3c;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
